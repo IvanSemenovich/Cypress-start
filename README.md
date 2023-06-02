@@ -1,17 +1,14 @@
-# cy-reporters
+How to run tests on locall 
 
-## Cypress Mochawesome Reporter
+Step 1 : 
+Install Node JS on locall https://nodejs.org/ use LTS version 
 
-https://www.npmjs.com/package/cypress-mochawesome-reporter
+Step 2 : 
+Clone project to locall and open in IDE
 
-## Cypress Allure Sources
+Step 3 :
+In project open terminal and run "npm install"
 
-- https://www.npmjs.com/package/@shelex/cypress-allure-plugin
-- https://github.com/Shelex/cypress-allure-plugin-example
+Step 4 : 
+Run npx cypress open to start UI with tests
 
-### Run Cypress Allure?
-
-- Install Java 8+
-- npm run ui-regression-allure
-- npm run allure:report
-- allure open
